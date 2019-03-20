@@ -410,12 +410,18 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   line-height: 1.8;
-  position: relative; }
-  .colorlib-heading span {
-    display: block; }
-  @media screen and (max-width: 768px) {
-    .colorlib-heading {
-      margin-bottom: 3em; } }
+  position: relative;
+}
+
+.colorlib-heading span {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .colorlib-heading {
+    margin-bottom: 3em;
+  }
+}
 
 .heading-meta {
   margin-bottom: 15px;
@@ -424,7 +430,18 @@ body.offcanvas {
   text-transform: uppercase;
   color: #999999;
   font-weight: 500;
-  letter-spacing: 5px; }
+  letter-spacing: 5px;
+}
+
+.smaller-heading {
+  margin-bottom: 15px;
+  display: block;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #999999;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
 
 .about-img {
   width: 100%;
